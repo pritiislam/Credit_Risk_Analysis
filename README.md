@@ -29,10 +29,11 @@ Clean the resulting data with an undersampling strategy. If the two nearest neig
 * Resampling with SMOTEENN did not work miracles, but some of the metrics show an improvement over undersampling. The balanced accuracy score went back up to ~65%, while the precision and recall are at 0.99 and 0.57. 
 
 Ensemble Learners 
-* Balanced Random Forest Classifier 
+
+Balanced Random Forest Classifier 
 * Utiziling Ensemble Learners made a slight overall improvement in results. We see a balanced accuracy score of 79%, while precision and recall are at 0.99 and 0.87. 
 
-* AdaBoost Classifer 
+AdaBoost Classifer 
 * Using this methond proved the best results, with a balanced accuracy score of 93%, while precision and recall are at 0.99 and 0.94
 
 ## Summary 
