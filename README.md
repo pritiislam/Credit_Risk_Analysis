@@ -1,6 +1,5 @@
 # Credit_Risk_Analysis
-Machine Learning/ Python/ Jupyter Notebook
-Data Preparation/ Statistical Reasoning
+Machine Learning/ Python/ Jupyter Notebook/ Data Preparation/ Statistical Reasoning
 
 ## Overview 
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, the purpose of of this analysis is to explore different techniques to train and evaluate machine learning models with unbalanced classes by utilizing imbalanced-learn and scikit-learn libraries. 
@@ -13,7 +12,9 @@ In the analysis, I will explore the following:
 
 ## Results 
 Random Oversampling
-* In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. ** In this study, the balanced accuracy score is ~65%, while precision and recall are at 0.99 and 0.69. 
+*In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. 
+
+In this study, the balanced accuracy score is ~65%, while precision and recall are at 0.99 and 0.69. 
 
 Synthetic Minority Oversampling Technique (SMOTE)
 * In SMOTE, like random oversampling, the size of the minority is increased. As we have seen, in random oversampling, instances from the minority class are randomly selected and added to the minority class. In SMOTE, by contrast, new instances are interpolated.
